@@ -2,7 +2,7 @@
 Fake news detection project is taken to complete a part of course - Big Data Engineering
 
 The project provides step by step documentation to train and deploy the machine learning project over AWS Cloud environment.
-The code is in python. Execution on AWS Sagemaker Notebook and visualization over AWS Quicksight. Web application for user interface is deployed over Flask
+The code is in python. Execution on AWS Sagemaker Notebook and visualization over Tableau. Web application for user interface is deployed over Flask
 Datapipeline for collecting Twitter tweets is done through NiFi and Kafka
 
 All the required code files are provided. 
