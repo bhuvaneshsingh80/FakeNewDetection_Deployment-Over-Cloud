@@ -19,12 +19,14 @@ Datasets for initial training: <br>
 4. Open AWS Sagemaker and create a Notebook Instance (set properties : connect to any  S3 bucket) <br>
 5. click  'Open Jupyter' <br>
 6. Copy paste and execute commands as in file:  SEIS-736_BDE_Project_SemanticAnalysis.ipynb   <br>
-    [This will generate the semantic analysis file data_statistics.csv - This file is used for further visualization] 
+    [This will generate the semantic analysis file data_statistics.csv - This file is used for further visualization] <br>
      **You might need to !pip3 install <library-name> wherever the error for <library-name> module not found <br>
     
 7. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_TextClassification.ipynb    <br>
     [ This is for text classification model. It will generate the model file: rnn_model_fake_real_text_classification.hdf5] <br>
     
-8. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_ImageClassification.ipynb    [ This is for image classification model] <br>
+8. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_ImageClassification.ipynb <br>
     [ This is for image classification model. It will generate the model file: vgg16_model_fake_real_image.hdf5]<br>
+
+ 9. For NiFi and Kafka pipeline refer - Nifi and Kafka steps file
     
