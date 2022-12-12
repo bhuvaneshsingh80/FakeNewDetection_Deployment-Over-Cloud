@@ -28,5 +28,7 @@ Datasets for initial training: <br>
 8. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_ImageClassification.ipynb <br>
     [ This is for image classification model. It will generate the model file: vgg16_model_fake_real_image.hdf5]<br>
 
- 9. For NiFi and Kafka pipeline refer - Nifi and Kafka steps file
+9. For flask server installtion and web interface follow the steps in flask_server folder
+    
+10. For NiFi and Kafka pipeline refer - Nifi and Kafka steps file
     
