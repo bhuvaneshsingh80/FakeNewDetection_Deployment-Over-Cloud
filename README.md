@@ -3,7 +3,7 @@ Fake news detection project is taken to complete a part of course - Big Data Eng
 
 The project provides step by step documentation and code to train and deploy the machine learning model over AWS Cloud environment.
 The code is in python. Model training through AWS Sagemaker Notebook. Visualization through Tableau. 
-Web application for user interface is deployed over Flask.  Datapipeline for collecting Twitter tweets is done through NiFi and Kafka
+Web application for user interface is deployed over Flask.  Data pipeline for collecting Twitter tweets is done through NiFi and Kafka stream
 
 All the required code files are provided. 
 
@@ -28,7 +28,7 @@ Datasets for initial training: <br>
 8. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_ImageClassification.ipynb <br>
     [ This is for image classification model. It will generate the model file: vgg16_model_fake_real_image.hdf5]<br>
 
-9. For flask server installtion and web interface follow the steps in flask_server folder
+9. For flask server installation and web interface follow the steps in flask_server folder
     
 10. For NiFi and Kafka pipeline refer - Nifi and Kafka steps file
     
