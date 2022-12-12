@@ -1,1 +1,10 @@
 
+Step 1. Create an EC2 instance and provide proper Inbound access of SSH entry from your IP
+Step 2. Connect to EC2 using putty
+Step 3. Copy files/folder - requirements.txt, main-app.py, rnn_model_fake_real_text_classification.hdf5, and templates to your EC2 using WinSCP(Windows)/Terminal(MacOs)
+Step 4. Execute  install -r requirements.txt     on your EC2
+Step 5. Execute  python3 main-app.py             on your EC2   [ The Flask server will be up on port 8080 ]
+
+Open the web browser and type in the url as-    http://<aws-public-host-name>:8080/
+
+The webpage should be displayed
