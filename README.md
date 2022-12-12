@@ -1,9 +1,9 @@
 # SEIS736-Big Data Engineering-Fake News Detection Project
 Fake news detection project is taken to complete a part of course - Big Data Engineering
 
-The project provides step by step documentation to train and deploy the machine learning project over AWS Cloud environment.
-The code is in python. Execution on AWS Sagemaker Notebook and visualization over Tableau. Web application for user interface is deployed over Flask
-Datapipeline for collecting Twitter tweets is done through NiFi and Kafka
+The project provides step by step documentation and code to train and deploy the machine learning model over AWS Cloud environment.
+The code is in python. Model training through AWS Sagemaker Notebook. Visualization through Tableau. 
+Web application for user interface is deployed over Flask.  Datapipeline for collecting Twitter tweets is done through NiFi and Kafka
 
 All the required code files are provided. 
 
