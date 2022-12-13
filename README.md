@@ -30,5 +30,5 @@ Datasets for initial training: <br>
 
 9. For flask server installation and web interface follow the steps in flask_server folder
     
-10. For NiFi and Kafka pipeline refer - Nifi and Kafka steps file
+10. For NiFi and Kafka pipeline refer - Nifi_Kafka folder
     
