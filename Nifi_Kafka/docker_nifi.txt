@@ -1,0 +1,17 @@
+sudo yum install docker -y # Install docker using the yum package manager
+sudo service docker start # Start docker on the host VM
+cp /etc/hadoop/conf/hdfs-site.xml /home/hadoop/lab-files
+cp /etc/hadoop/conf/core-site.xml /home/hadoop/lab-files
+sed -i "112,120d" /home/hadoop/lab-files/core-site.xml
+chmod -R 777 lab-files
+
+hdfs dfs -mkdir /user/hadoop/tweets-en
+hdfs dfs -chmod 777 /user/hadoop/tweets-en
+hdfs dfs -mkdir /user/hadoop/tweets-es
+hdfs dfs -chmod 777 /user/hadoop/tweets-es
+
+sudo docker run -d -p 9080:8080 \
+    --name nifi_lab \
+    -v /home/hadoop/lab-files:/home/docker/docker-share \
+    --entrypoint ../../../home/docker/docker-share/start-nifi.sh \
+    apache/nifi:1.9.2
