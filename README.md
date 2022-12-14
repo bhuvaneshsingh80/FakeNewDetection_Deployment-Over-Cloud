@@ -32,4 +32,4 @@ Datasets for initial training: <br>
     
 10. For NiFi and Kafka pipeline refer - Nifi_Kafka folder
     
-**Note: AS the hdf5 file of image model is >25MB, so sharing the file over google drive : https://drive.google.com/drive/folders/19cwJBIqxtdfzeiBqV80flSlSKyu6BJ91?usp=sharing 
+**Note: AS the hdf5 file of image model (vgg16_model_fake_real_image.hdf5) is >25MB, so issue over GitHub, thus sharing the file over google drive : https://drive.google.com/drive/folders/19cwJBIqxtdfzeiBqV80flSlSKyu6BJ91?usp=sharing 
