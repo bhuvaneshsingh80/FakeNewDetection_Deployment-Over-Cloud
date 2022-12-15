@@ -6,6 +6,6 @@ Step 3. Copy files/folder - requirements.txt, main-app.py, rnn_model_fake_real_t
 Step 4. Execute  install -r requirements.txt     on your EC2  <br>
 Step 5. Execute  python3 main-app.py             on your EC2   [ The Flask server will be up on port 8080 ]  <br>
 
-Open the web browser and type in the url as-    http://<aws-public-host-name>:8080/  <br>
+Open the web browser and type in the url as-    http://(aws-public-host-name):8080/  <br>
 
 The webpage should be displayed  <br>
