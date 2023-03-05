@@ -1,4 +1,4 @@
-# SEIS736-Big Data Engineering-Fake News Detection Project
+# Fake News Detection model deployment over AWS Cloud
 Fake news detection project is taken to complete a part of course - Big Data Engineering
 
 The project provides step by step documentation and code to train and deploy the machine learning model over AWS Cloud environment.
