@@ -1,9 +1,9 @@
 # Fake News Detection model deployment over AWS Cloud
-Fake news detection project is taken to complete a part of course - Big Data Engineering
+Fake news detection project is taken to complete a part of course - Data Lake Engineering
 
 The project provides step by step documentation and code to train and deploy the machine learning model over AWS Cloud environment.
 The code is in python. Model training through AWS Sagemaker Notebook. Visualization through Tableau. 
-Web application for user interface is deployed over Flask.  Data pipeline for collecting Twitter tweets is done through NiFi and Kafka stream
+Web application for user interface is deployed over Flask.  
 
 All the required code files are provided. 
 
@@ -14,18 +14,18 @@ Datasets for initial training: <br>
 
 ### STEPS:
 1. Create an EC2 instance on AWS - Provide proper Inbound rules for SSH, http and https ports <br>
-2. Create an S3 bucket by the name : seis736-bucket <br>
+2. Create an S3 bucket  <br>
 3. Upload all data files (tweets files, image files ) on this S3 bucket <br>
 4. Open AWS Sagemaker and create a Notebook Instance (set properties : connect to any  S3 bucket) <br>
 5. click  'Open Jupyter' <br>
-6. Copy paste and execute commands as in file:  SEIS-736_BDE_Project_SemanticAnalysis.ipynb   <br>
-    [This will generate the semantic analysis file data_statistics.csv - This file is used for further visualization] <br>
+6. Copy paste and execute commands as in file:  SEIS-745_DLE_Project_SemanticAnalysis.ipynb   <br>
+    [This will generate the semantic analysis file analysis_sheet.csv - This file is used for further visualization] <br>
      *You might need to !pip3 install library-name for errors  "library-name module not found" <br>
     
-7. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_TextClassification.ipynb    <br>
+7. In new notebook Copy paste and execute commands as in file:  SEIS-745_DLE_Project_TextClassification.ipynb    <br>
     [ This is for text classification model. It will generate the model file: rnn_model_fake_real_text_classification.hdf5] <br>
     
-8. In new notebook Copy paste and execute commands as in file:  SEIS-736_BDE_Project_ImageClassification.ipynb <br>
+8. In new notebook Copy paste and execute commands as in file:  SEIS-745_DLE_Project_ImageClassification.ipynb <br>
     [ This is for image classification model. It will generate the model file: vgg16_model_fake_real_image.hdf5]<br>
 
 9. For flask server installation and web interface follow the steps in flask_server folder
